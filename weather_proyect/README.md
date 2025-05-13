@@ -1,12 +1,50 @@
-# React + Vite
+# 🌤 Weather Info App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web en React que muestra la información meteorológica de una ciudad. Al cargar, muestra el pronóstico para Madrid, pero puedes buscar cualquier otra ciudad usando el formulario.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Características
 
-## Expanding the ESLint configuration
+- Consulta el pronóstico extendido (cada 3 horas) usando la API de OpenWeather.
+- Búsqueda de ciudad mediante un formulario.
+- Renderizado de tarjetas con:
+  - Hora
+  - Temperatura
+  - Descripción del clima
+  - Icono del estado del tiempo
+- Estilos centrados y diseño responsive básico.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tecnologías utilizadas
+
+- React
+- CSS
+- Vite
+- OpenWeather API
+- Fetch API
+
+---
+
+## 🌐 API utilizada
+
+Usamos la [OpenWeather Forecast API](https://openweathermap.org/forecast5) para obtener los datos meteorológicos.
+
+### Endpoint:
+
+#### Haz fork + clone y luego
+
+#### Instalar las dependencias
+npm install
+
+
+#### Ejecutar el servidor de desarrollo
+npm run dev
+
+#### Crear el archivo .env y agregar tu clave de API
+
+## Vista previa de la aplicación en escritorio.
+
+
+![Web Del tiempo en escritorio](public/assets/web_escritorio.png)

@@ -1,5 +1,5 @@
 /* Estilos para WeatherList */
-.weather-list {
+section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -7,7 +7,7 @@
   gap: 20px;
 }
 
-.weather-list article {
+section article {
   width: 200px;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -17,7 +17,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.weather-list article:hover {
+article:hover {
   transform: translateY(-10px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
@@ -28,7 +28,7 @@ h4 {
   color: #333;
 }
 
-.weather-form-container {
+div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,20 +37,20 @@ h4 {
   text-align: center;
 }
 
-.weather-form-container form {
+div form {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
 }
 
-.weather-form-container input {
+div input {
   padding: 8px;
   font-size: 16px;
   border-radius: 6px;
   border: 1px solid #ccc;
 }
 
-.weather-form-container button {
+div button {
   padding: 8px 16px;
   font-size: 16px;
   background-color: #3498db;
@@ -60,11 +60,11 @@ h4 {
   cursor: pointer;
 }
 
-.weather-form-container button:hover {
+div button:hover {
   background-color: #2980b9;
 }
 
-.weather-form-container h1 {
+div h1 {
   font-size: 24px;
   color: #333;
 }

@@ -5,7 +5,7 @@ import WeatherList from './components/WeatherList'; // Asegúrate de que la ruta
 function App() {
   return (
     <div className="app-container">
-      <h1 className="weather-title">Weather Info</h1>
+      <h1>Weather Info</h1>
       <WeatherList />
     </div>
   );
